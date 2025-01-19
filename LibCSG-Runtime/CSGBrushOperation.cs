@@ -93,7 +93,6 @@ public class CSGBrushOperation
         Array.Clear(merged_brush.faces, 0 , merged_brush.faces.Length);
         mesh_merge.do_operation(operation, ref merged_brush);
         mesh_merge=null;
-        System.GC.Collect();
     }
 
     
